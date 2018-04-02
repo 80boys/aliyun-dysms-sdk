@@ -4,7 +4,7 @@
 实用范例
 
 
- use Aliyun\Core\Config;
+##use Aliyun\Core\Config;
  use Aliyun\Core\Exception\ClientException;
  use Aliyun\Core\Profile\DefaultProfile;
  use Aliyun\Core\DefaultAcsClient;
