@@ -4,16 +4,16 @@
 实用范例
 
 
- use Aliyun\Core\Config;
- use Aliyun\Core\Exception\ClientException;
- use Aliyun\Core\Profile\DefaultProfile;
- use Aliyun\Core\DefaultAcsClient;
- use Aliyun\Api\Msg\Request\V20170525\SingleCallByVoiceRequest;
- use Aliyun\Api\Msg\Request\V20170525\SingleCallByTtsRequest;
- use Aliyun\Api\Msg\Request\V20170525\IvrCallRequest;
- use Aliyun\Api\Msg\Request\V20170525\MenuKeyMap;
- use AliyunMNS\Exception\MnsException;
- use AliyunMNS\TokenGetterForAlicom;
+* use Aliyun\Core\Config;
+* use Aliyun\Core\Exception\ClientException;
+* use Aliyun\Core\Profile\DefaultProfile;
+* use Aliyun\Core\DefaultAcsClient;
+* use Aliyun\Api\Msg\Request\V20170525\SingleCallByVoiceRequest;
+* use Aliyun\Api\Msg\Request\V20170525\SingleCallByTtsRequest;
+* use Aliyun\Api\Msg\Request\V20170525\IvrCallRequest;
+* use Aliyun\Api\Msg\Request\V20170525\MenuKeyMap;
+* use AliyunMNS\Exception\MnsException;
+* use AliyunMNS\TokenGetterForAlicom;
 
 Config::load();
 
