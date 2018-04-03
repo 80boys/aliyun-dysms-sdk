@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Aliyun\Api\Dyvms\Request\V20170525;
+namespace Aliyun\Api\Msg\Request\V20170525;
 use Aliyun\Core\RpcAcsRequest;
 
 class SingleCallByTtsRequest extends RpcAcsRequest
@@ -114,5 +114,5 @@ class SingleCallByTtsRequest extends RpcAcsRequest
 		$this->ttsParam = $ttsParam;
 		$this->queryParameters["TtsParam"]=$ttsParam;
 	}
-	
+
 }
